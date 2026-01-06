@@ -24,6 +24,15 @@ html, body {
   padding: 0 24px;     /* equal left & right spacing */
 }
 
+/* Brand accent line */
+.accent-line {
+  width: 64px;
+  height: 3px;
+  background: linear-gradient(90deg, #f97316, #ff9f4a);
+  margin: 16px 0 24px;
+  border-radius: 2px;
+}
+
 
 * {
   margin: 0;
@@ -889,6 +898,11 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .global-container {
+    padding: 0 16px; /* 👈 same as rest of site */
+  }
+}
 
 
 /* FOOTER */
